@@ -1,0 +1,447 @@
+{
+    "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+    "runs": [
+        {
+            "tool": {
+                "driver": {
+                    "name": "",
+                    "rules": [
+                        {
+                            "id": "file-type 8.1.0",
+                            "shortDescription": {
+                                "text": "[D] Dependency: file-type 8.1.0"
+                            },
+                            "fullDescription": {
+                                "text": "- [M] [CVE-2022-36313](https://nvd.nist.gov/vuln/detail/CVE-2022-36313)\n"
+                            },
+                            "help": {
+                                "markdown": "# file-type 8.1.0\n## Upgrade Guidance\n\n**Short Term** - \n\n**Long Term** - 18.5.0\n\n## Description\n- [M] [CVE-2022-36313](https://nvd.nist.gov/vuln/detail/CVE-2022-36313)\n\n\n## Dependency tree\n- file-type/8.1.0\n    - rapid_scan_sarif_1/1.0.0/-npm\n\n\n## References\n* Common Weakness Enumeration: [CWE-835](https://cwe.mitre.org/data/definitions/835.html)\n\n",
+                                "text": "- [M] [CVE-2022-36313](https://nvd.nist.gov/vuln/detail/CVE-2022-36313)\n"
+                            },
+                            "properties": {
+                                "security-severity": "6.8",
+                                "tags": [
+                                    "security",
+                                    "patch_available",
+                                    "direct_dependency",
+                                    "external/cwe/cwe-835"
+                                ]
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            }
+                        },
+                        {
+                            "id": "State Threads Library 0.2.4",
+                            "shortDescription": {
+                                "text": "[D] Dependency: State Threads Library 0.2.4"
+                            },
+                            "fullDescription": {
+                                "text": "- [M] [CVE-2017-16224](https://nvd.nist.gov/vuln/detail/CVE-2017-16224)\n- [M] [BDSA-2017-3136](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-3136)\n"
+                            },
+                            "help": {
+                                "markdown": "# State Threads Library 0.2.4\n## Upgrade Guidance\n\n**Short Term** - 0.5.5\n\n**Long Term** - 3.0.0\n\n## Description\n- [M] [CVE-2017-16224](https://nvd.nist.gov/vuln/detail/CVE-2017-16224)\n- [M] [BDSA-2017-3136](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-3136)\n\n\n## Dependency tree\n- st/0.2.4\n    - rapid_scan_sarif_1/1.0.0/-npm\n\n\n## References\n* Common Weakness Enumeration: [CWE-601](https://cwe.mitre.org/data/definitions/601.html)\n\n",
+                                "text": "- [M] [CVE-2017-16224](https://nvd.nist.gov/vuln/detail/CVE-2017-16224)\n- [M] [BDSA-2017-3136](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-3136)\n"
+                            },
+                            "properties": {
+                                "security-severity": "6.8",
+                                "tags": [
+                                    "security",
+                                    "patch_available",
+                                    "direct_dependency",
+                                    "external/cwe/cwe-601"
+                                ]
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            }
+                        },
+                        {
+                            "id": "markedjs 0.3.5",
+                            "shortDescription": {
+                                "text": "[D] Dependency: markedjs 0.3.5"
+                            },
+                            "fullDescription": {
+                                "text": "- [H] [BDSA-2015-0569](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0569)\n- [M] [BDSA-2022-0106](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0106)\n- [M] [BDSA-2022-0105](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0105)\n- [M] [BDSA-2017-3393](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-3393)\n"
+                            },
+                            "help": {
+                                "markdown": "# markedjs 0.3.5\n## Upgrade Guidance\n\n**Short Term** - 0.8.2\n\n**Long Term** - 9.0.0\n\n## Description\n- [H] [BDSA-2015-0569](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0569)\n- [M] [BDSA-2022-0106](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0106)\n- [M] [BDSA-2022-0105](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0105)\n- [M] [BDSA-2017-3393](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-3393)\n\n\n## Dependency tree\n- marked/0.3.5\n    - rapid_scan_sarif_1/1.0.0/-npm\n\n\n## References\n* Common Weakness Enumeration: [CWE-185](https://cwe.mitre.org/data/definitions/185.html)\n* Common Weakness Enumeration: [CWE-79](https://cwe.mitre.org/data/definitions/79.html)\n\n",
+                                "text": "- [H] [BDSA-2015-0569](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0569)\n- [M] [BDSA-2022-0106](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0106)\n- [M] [BDSA-2022-0105](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0105)\n- [M] [BDSA-2017-3393](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-3393)\n"
+                            },
+                            "properties": {
+                                "security-severity": "6.8",
+                                "tags": [
+                                    "security",
+                                    "patch_available",
+                                    "direct_dependency",
+                                    "external/cwe/cwe-185",
+                                    "external/cwe/cwe-79"
+                                ]
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            }
+                        },
+                        {
+                            "id": "ms.js 0.7.3",
+                            "shortDescription": {
+                                "text": "[D] Dependency: ms.js 0.7.3"
+                            },
+                            "fullDescription": {
+                                "text": "- [M] [BDSA-2017-4122](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-4122)\n"
+                            },
+                            "help": {
+                                "markdown": "# ms.js 0.7.3\n## Upgrade Guidance\n\n**Short Term** - \n\n**Long Term** - 3.0.0-canary.1\n\n## Description\n- [M] [BDSA-2017-4122](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-4122)\n\n\n## Dependency tree\n- ms/0.7.3\n    - rapid_scan_sarif_1/1.0.0/-npm\n\n\n## References\n* Common Weakness Enumeration: [CWE-185](https://cwe.mitre.org/data/definitions/185.html)\n\n",
+                                "text": "- [M] [BDSA-2017-4122](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-4122)\n"
+                            },
+                            "properties": {
+                                "security-severity": "6.8",
+                                "tags": [
+                                    "security",
+                                    "patch_available",
+                                    "direct_dependency",
+                                    "external/cwe/cwe-185"
+                                ]
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            }
+                        },
+                        {
+                            "id": "moment/moment 2.15.1",
+                            "shortDescription": {
+                                "text": "[D] Dependency: moment/moment 2.15.1"
+                            },
+                            "fullDescription": {
+                                "text": "- [M] [BDSA-2017-3128](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-3128)\n- [M] [BDSA-2018-5270](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-5270)\n- [M] [BDSA-2022-0897](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0897)\n"
+                            },
+                            "help": {
+                                "markdown": "# moment/moment 2.15.1\n## Upgrade Guidance\n\n**Short Term** - 2.29.4\n\n**Long Term** - 2.29.4\n\n## Description\n- [M] [BDSA-2017-3128](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-3128)\n- [M] [BDSA-2018-5270](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-5270)\n- [M] [BDSA-2022-0897](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0897)\n\n\n## Dependency tree\n- moment/2.15.1\n    - rapid_scan_sarif_1/1.0.0/-npm\n\n\n## References\n* Common Weakness Enumeration: [CWE-400](https://cwe.mitre.org/data/definitions/400.html)\n* Common Weakness Enumeration: [CWE-22](https://cwe.mitre.org/data/definitions/22.html)\n\n",
+                                "text": "- [M] [BDSA-2017-3128](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-3128)\n- [M] [BDSA-2018-5270](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-5270)\n- [M] [BDSA-2022-0897](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0897)\n"
+                            },
+                            "properties": {
+                                "security-severity": "6.8",
+                                "tags": [
+                                    "security",
+                                    "patch_available",
+                                    "direct_dependency",
+                                    "external/cwe/cwe-400",
+                                    "external/cwe/cwe-22"
+                                ]
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            }
+                        },
+                        {
+                            "id": "Mongoose 4.2.4",
+                            "shortDescription": {
+                                "text": "[D] Dependency: Mongoose 4.2.4"
+                            },
+                            "fullDescription": {
+                                "text": "- [C] [BDSA-2023-1810](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-1810)\n- [M] [BDSA-2019-3194](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-3194)\n- [M] [BDSA-2022-2650](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-2650)\n- [M] [BDSA-2018-1632](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1632)\n"
+                            },
+                            "help": {
+                                "markdown": "# Mongoose 4.2.4\n## Upgrade Guidance\n\n**Short Term** - 4.13.21\n\n**Long Term** - 7.5.1\n\n## Description\n- [C] [BDSA-2023-1810](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-1810)\n- [M] [BDSA-2019-3194](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-3194)\n- [M] [BDSA-2022-2650](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-2650)\n- [M] [BDSA-2018-1632](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1632)\n\n\n## Dependency tree\n- mongoose/4.2.4\n    - rapid_scan_sarif_1/1.0.0/-npm\n\n\n## References\n* Common Weakness Enumeration: [CWE-287](https://cwe.mitre.org/data/definitions/287.html)\n* Common Weakness Enumeration: [CWE-943](https://cwe.mitre.org/data/definitions/943.html)\n* Common Weakness Enumeration: [CWE-471](https://cwe.mitre.org/data/definitions/471.html)\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n* Common Weakness Enumeration: [CWE-789](https://cwe.mitre.org/data/definitions/789.html)\n\n",
+                                "text": "- [C] [BDSA-2023-1810](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-1810)\n- [M] [BDSA-2019-3194](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-3194)\n- [M] [BDSA-2022-2650](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-2650)\n- [M] [BDSA-2018-1632](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1632)\n"
+                            },
+                            "properties": {
+                                "security-severity": "6.8",
+                                "tags": [
+                                    "security",
+                                    "patch_available",
+                                    "direct_dependency",
+                                    "external/cwe/cwe-287",
+                                    "external/cwe/cwe-943",
+                                    "external/cwe/cwe-471",
+                                    "external/cwe/cwe-20",
+                                    "external/cwe/cwe-789"
+                                ]
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            }
+                        },
+                        {
+                            "id": "Lodash 4.17.4",
+                            "shortDescription": {
+                                "text": "[D] Dependency: Lodash 4.17.4"
+                            },
+                            "fullDescription": {
+                                "text": "- [H] [BDSA-2020-1674](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-1674)\n- [H] [BDSA-2021-0392](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0392)\n- [H] [BDSA-2019-3842](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-3842)\n- [H] [BDSA-2019-2112](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-2112)\n- [H] [BDSA-2018-3818](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-3818)\n- [H] [BDSA-2020-3839](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-3839)\n- [M] [BDSA-2021-0375](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0375)\n- [M] [BDSA-2018-1301](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1301)\n- [M] [BDSA-2017-3875](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-3875)\n- [M] [BDSA-2020-2147](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-2147)\n- [L] [BDSA-2019-0330](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-0330)\n"
+                            },
+                            "help": {
+                                "markdown": "# Lodash 4.17.4\n## Upgrade Guidance\n\n**Short Term** - 4.17.21\n\n**Long Term** - 4.17.21\n\n## Description\n- [H] [BDSA-2020-1674](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-1674)\n- [H] [BDSA-2021-0392](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0392)\n- [H] [BDSA-2019-3842](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-3842)\n- [H] [BDSA-2019-2112](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-2112)\n- [H] [BDSA-2018-3818](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-3818)\n- [H] [BDSA-2020-3839](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-3839)\n- [M] [BDSA-2021-0375](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0375)\n- [M] [BDSA-2018-1301](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1301)\n- [M] [BDSA-2017-3875](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-3875)\n- [M] [BDSA-2020-2147](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-2147)\n- [L] [BDSA-2019-0330](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-0330)\n\n\n## Dependency tree\n- lodash/4.17.4\n    - rapid_scan_sarif_1/1.0.0/-npm\n\n\n## References\n* Common Weakness Enumeration: [CWE-94](https://cwe.mitre.org/data/definitions/94.html)\n* Common Weakness Enumeration: [CWE-77](https://cwe.mitre.org/data/definitions/77.html)\n* Common Weakness Enumeration: [CWE-185](https://cwe.mitre.org/data/definitions/185.html)\n* Common Weakness Enumeration: [CWE-400](https://cwe.mitre.org/data/definitions/400.html)\n* Common Weakness Enumeration: [CWE-601](https://cwe.mitre.org/data/definitions/601.html)\n* Common Weakness Enumeration: [CWE-471](https://cwe.mitre.org/data/definitions/471.html)\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n* Common Weakness Enumeration: [CWE-664](https://cwe.mitre.org/data/definitions/664.html)\n\n",
+                                "text": "- [H] [BDSA-2020-1674](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-1674)\n- [H] [BDSA-2021-0392](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0392)\n- [H] [BDSA-2019-3842](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-3842)\n- [H] [BDSA-2019-2112](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-2112)\n- [H] [BDSA-2018-3818](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-3818)\n- [H] [BDSA-2020-3839](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-3839)\n- [M] [BDSA-2021-0375](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0375)\n- [M] [BDSA-2018-1301](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1301)\n- [M] [BDSA-2017-3875](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-3875)\n- [M] [BDSA-2020-2147](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-2147)\n- [L] [BDSA-2019-0330](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-0330)\n"
+                            },
+                            "properties": {
+                                "security-severity": "8.9",
+                                "tags": [
+                                    "security",
+                                    "patch_available",
+                                    "direct_dependency",
+                                    "external/cwe/cwe-94",
+                                    "external/cwe/cwe-77",
+                                    "external/cwe/cwe-185",
+                                    "external/cwe/cwe-400",
+                                    "external/cwe/cwe-601",
+                                    "external/cwe/cwe-471",
+                                    "external/cwe/cwe-20",
+                                    "external/cwe/cwe-664"
+                                ]
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            }
+                        },
+                        {
+                            "id": "mde (ejs) 1.0.0",
+                            "shortDescription": {
+                                "text": "[D] Dependency: mde (ejs) 1.0.0"
+                            },
+                            "fullDescription": {
+                                "text": "- [M] [CVE-2017-1000188](https://nvd.nist.gov/vuln/detail/CVE-2017-1000188)\n- [C] [BDSA-2023-1179](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-1179)\n- [H] [BDSA-2016-1198](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1198)\n- [H] [BDSA-2022-1141](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-1141)\n"
+                            },
+                            "help": {
+                                "markdown": "# mde (ejs) 1.0.0\n## Upgrade Guidance\n\n**Short Term** - \n\n**Long Term** - 3.1.9\n\n## Description\n- [M] [CVE-2017-1000188](https://nvd.nist.gov/vuln/detail/CVE-2017-1000188)\n- [C] [BDSA-2023-1179](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-1179)\n- [H] [BDSA-2016-1198](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1198)\n- [H] [BDSA-2022-1141](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-1141)\n\n\n## Dependency tree\n- ejs/1.0.0\n    - rapid_scan_sarif_1/1.0.0/-npm\n\n\n## References\n* Common Weakness Enumeration: [CWE-94](https://cwe.mitre.org/data/definitions/94.html)\n* Common Weakness Enumeration: [CWE-79](https://cwe.mitre.org/data/definitions/79.html)\n\n",
+                                "text": "- [M] [CVE-2017-1000188](https://nvd.nist.gov/vuln/detail/CVE-2017-1000188)\n- [C] [BDSA-2023-1179](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-1179)\n- [H] [BDSA-2016-1198](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1198)\n- [H] [BDSA-2022-1141](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-1141)\n"
+                            },
+                            "properties": {
+                                "security-severity": "8.9",
+                                "tags": [
+                                    "security",
+                                    "patch_available",
+                                    "direct_dependency",
+                                    "external/cwe/cwe-94",
+                                    "external/cwe/cwe-79"
+                                ]
+                            },
+                            "defaultConfiguration": {
+                                "level": "error"
+                            }
+                        },
+                        {
+                            "id": "jQuery 2.2.4",
+                            "shortDescription": {
+                                "text": "[D] Dependency: jQuery 2.2.4"
+                            },
+                            "fullDescription": {
+                                "text": "- [H] [BDSA-2020-0964](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0964)\n- [H] [BDSA-2020-4841](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-4841)\n- [H] [BDSA-2014-0063](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0063)\n- [H] [BDSA-2020-0686](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0686)\n- [M] [BDSA-2021-3651](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3651)\n"
+                            },
+                            "help": {
+                                "markdown": "# jQuery 2.2.4\n## Upgrade Guidance\n\n**Short Term** - \n\n**Long Term** - 3.7.1\n\n## Description\n- [H] [BDSA-2020-0964](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0964)\n- [H] [BDSA-2020-4841](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-4841)\n- [H] [BDSA-2014-0063](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0063)\n- [H] [BDSA-2020-0686](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0686)\n- [M] [BDSA-2021-3651](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3651)\n\n\n## Dependency tree\n- jquery/2.2.4\n    - rapid_scan_sarif_1/1.0.0/-npm\n\n\n## References\n* Common Weakness Enumeration: [CWE-546](https://cwe.mitre.org/data/definitions/546.html)\n* Common Weakness Enumeration: [CWE-80](https://cwe.mitre.org/data/definitions/80.html)\n* Common Weakness Enumeration: [CWE-79](https://cwe.mitre.org/data/definitions/79.html)\n\n",
+                                "text": "- [H] [BDSA-2020-0964](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0964)\n- [H] [BDSA-2020-4841](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-4841)\n- [H] [BDSA-2014-0063](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0063)\n- [H] [BDSA-2020-0686](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0686)\n- [M] [BDSA-2021-3651](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3651)\n"
+                            },
+                            "properties": {
+                                "security-severity": "6.8",
+                                "tags": [
+                                    "security",
+                                    "patch_available",
+                                    "direct_dependency",
+                                    "external/cwe/cwe-546",
+                                    "external/cwe/cwe-80",
+                                    "external/cwe/cwe-79"
+                                ]
+                            },
+                            "defaultConfiguration": {
+                                "level": "warning"
+                            }
+                        }
+                    ]
+                }
+            },
+            "results": [
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package.json"
+                                },
+                                "region": {
+                                    "startLine": 26
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "file-type 8.1.0",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "6f50a6589066e9caf461f8e6c6b5a631a4bd2d9171f91cfcb341ab4c5dca6335"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "pom.xml"
+                                },
+                                "region": {
+                                    "startLine": 12
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "State Threads Library 0.2.4",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "75bc22a8317660196d0eac8a268c62280fef09e22e59c2f33db9320a5c891de1"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package.json"
+                                },
+                                "region": {
+                                    "startLine": 38
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "State Threads Library 0.2.4",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "75bc22a8317660196d0eac8a268c62280fef09e22e59c2f33db9320a5c891de1"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package.json"
+                                },
+                                "region": {
+                                    "startLine": 30
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "markedjs 0.3.5",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "a85682309d04c86722705ae455663b08e232e73701e8860d3045d19e0f2a0d86"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package.json"
+                                },
+                                "region": {
+                                    "startLine": 32
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "moment/moment 2.15.1",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "1b98f8c14b662dc9f09a45011740e29ce798c2d906966db54b2edc661dba17bc"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package.json"
+                                },
+                                "region": {
+                                    "startLine": 33
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Mongoose 4.2.4",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "5038d0459e29ac24bd5a14943ead28666a4aaed11d70701d599a3bf697a6d815"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package.json"
+                                },
+                                "region": {
+                                    "startLine": 29
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Lodash 4.17.4",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "e5d86af889078a45cbf860cbaaf9b5a78c25ee60d81307665a284583ba7f1f20"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package.json"
+                                },
+                                "region": {
+                                    "startLine": 21
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "mde (ejs) 1.0.0",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "35465ddc679dbb06061a47370c07b7a01ccaacf389b03d6aeb736d75672974f1"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package.json"
+                                },
+                                "region": {
+                                    "startLine": 28
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "jQuery 2.2.4",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "8c7e10ad40cb979dd7d4da2e42aabef8986358c41521be97e1707f2c5468fdfd"
+                    }
+                }
+            ]
+        }
+    ],
+    "version": "2.1.0"
+}
